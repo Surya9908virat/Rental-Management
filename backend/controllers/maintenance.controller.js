@@ -42,7 +42,7 @@ export const createRequest = async (req, res) => {
         const result = await cloudinary.uploader.upload(
           `data:${file.mimetype};base64,${file.buffer.toString("base64")}`,
           {
-            folder: "rentwise",
+            folder: "rental-management",
             resource_type: "auto",
             public_id: publicId
           }

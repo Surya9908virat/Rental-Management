@@ -17,7 +17,7 @@ const LandingPage: React.FC = () => {
       {/* Header Matter */}
       <div className="bg-gradient-to-br from-slate-50 to-slate-100 dark:from-slate-900 dark:to-slate-800 py-16 px-4 text-center border-b border-slate-200 dark:border-slate-800">
         <h1 className="text-4xl md:text-5xl font-extrabold text-secondary dark:text-white mb-4">
-          Welcome to <span className="text-primary">RentWise</span>
+          Welcome to <span className="text-primary">Rental Management</span>
         </h1>
         <p className="text-lg md:text-xl text-slate-600 dark:text-slate-400 max-w-2xl mx-auto">
           The all-in-one portal connecting landlords and tenants. Seamlessly manage leases, properties, rent payments, and maintenance requests in one centralized platform.

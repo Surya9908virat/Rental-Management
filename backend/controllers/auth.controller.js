@@ -87,7 +87,7 @@ export const updateProfile = async (req, res) => {
     if (req.file) {
       const result = await cloudinary.uploader.upload(
         `data:${req.file.mimetype};base64,${req.file.buffer.toString("base64")}`,
-        { folder: "rentwise/profiles", resource_type: "auto" }
+        { folder: "rental-management/profiles", resource_type: "auto" }
       );
       profilePictureUrl = result.secure_url;
     }

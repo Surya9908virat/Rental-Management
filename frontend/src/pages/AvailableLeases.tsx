@@ -117,7 +117,7 @@ const AvailableLeases: React.FC = () => {
 
                                     <div className="flex items-center gap-2 text-emerald-600 dark:text-emerald-400 bg-emerald-50 dark:bg-emerald-900/20 p-3 rounded-xl border border-emerald-100/50 dark:border-emerald-900/50">
                                         <ShieldCheck size={18} />
-                                        <p className="text-[11px] font-bold">Verified by RentWise Property Shield</p>
+                                        <p className="text-[11px] font-bold">Verified by Rental Management Property Shield</p>
                                     </div>
                                 </CardContent>
 

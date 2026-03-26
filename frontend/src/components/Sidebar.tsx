@@ -45,7 +45,7 @@ const Sidebar = () => {
           <div className="w-8 h-8 bg-primary rounded-xl flex items-center justify-center shadow-lg shadow-primary/30">
             <Home size={18} className="text-white" />
           </div>
-          <span className="text-2xl font-black text-secondary dark:text-white tracking-tighter">RentWise</span>
+          <span className="text-2xl font-black text-secondary dark:text-white tracking-tighter">Rental Management</span>
         </div>
 
         <nav className="space-y-1.5">

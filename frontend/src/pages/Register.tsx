@@ -44,7 +44,7 @@ const Register: React.FC = () => {
       <Card className="w-full max-w-md">
         <CardHeader>
           <h2 className="text-2xl font-bold text-center text-secondary dark:text-white">Create Account</h2>
-          <p className="text-center text-slate-500 dark:text-slate-400 mt-1">Join RentWise today</p>
+          <p className="text-center text-slate-500 dark:text-slate-400 mt-1">Join Rental Management today</p>
         </CardHeader>
         <form onSubmit={handleSubmit}>
           <CardContent className="space-y-4">

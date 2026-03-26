@@ -39,7 +39,7 @@ export const Navbar: React.FC = () => {
             <div className="w-8 h-8 bg-white/20 rounded-lg flex items-center justify-center group-hover:bg-white/30 transition-all">
               <Home size={18} className="text-white" />
             </div>
-            <span className="font-bold text-xl text-white tracking-tight">RentWise</span>
+            <span className="font-bold text-xl text-white tracking-tight">Rental Management</span>
           </Link>
 
           {/* Right side */}

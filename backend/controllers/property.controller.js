@@ -11,7 +11,7 @@ export const createProperty = async (req, res) => {
             for (const file of req.files) {
                 const result = await cloudinary.uploader.upload(
                     `data:${file.mimetype};base64,${file.buffer.toString("base64")}`,
-                    { folder: "rentwise/properties", resource_type: "auto" }
+                    { folder: "rental-management/properties", resource_type: "auto" }
                 );
                 imageUrls.push(result.secure_url);
             }

@@ -37,7 +37,7 @@ const Login: React.FC = () => {
       <Card className="w-full max-w-md">
         <CardHeader>
           <h2 className="text-2xl font-bold text-center text-secondary dark:text-white">Welcome Back</h2>
-          <p className="text-center text-slate-500 dark:text-slate-400 mt-1">Sign in to your RentWise account</p>
+          <p className="text-center text-slate-500 dark:text-slate-400 mt-1">Sign in to your Rental Management account</p>
         </CardHeader>
         <form onSubmit={handleSubmit}>
           <CardContent className="space-y-4">

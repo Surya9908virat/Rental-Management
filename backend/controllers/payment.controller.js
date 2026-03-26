@@ -16,7 +16,7 @@ export const payRent = async (req, res) => {
       const result = await cloudinary.uploader.upload(
         `data:${req.file.mimetype};base64,${req.file.buffer.toString("base64")}`,
         {
-          folder: "rentwise/payments",
+          folder: "rental-management/payments",
           resource_type: "auto",
           public_id: publicId
         }

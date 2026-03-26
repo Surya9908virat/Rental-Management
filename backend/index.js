@@ -53,7 +53,7 @@ io.on("connection", (socket) => {
 app.set("io", io); 
 
 app.get("/", (req, res) => {
-  res.send("RentWise backend is running");
+  res.send("Rental Management backend is running");
 });
 
 app.use("/api/auth", authRoutes);

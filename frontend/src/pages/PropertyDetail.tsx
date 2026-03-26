@@ -151,7 +151,7 @@ const PropertyDetail = () => {
                                         <p className="text-[10px] font-black uppercase text-slate-400 dark:text-slate-500 tracking-widest mb-1 text-center">Listing Verified</p>
                                         <div className="flex items-center justify-center gap-2 text-blue-600">
                                             <ShieldCheck size={20} />
-                                            <span className="font-bold">RentWise Trust</span>
+                                            <span className="font-bold">Rental Management Trust</span>
                                         </div>
                                     </div>
                                 </div>
@@ -239,7 +239,7 @@ const PropertyDetail = () => {
 
                         <Card className="border-none bg-blue-600 dark:bg-blue-900/50 text-white overflow-hidden shadow-xl shadow-blue-200 dark:shadow-none">
                             <CardContent className="p-6 space-y-3">
-                                <h4 className="font-black flex items-center gap-2"><ShieldCheck size={18} /> RentWise Secure</h4>
+                                <h4 className="font-black flex items-center gap-2"><ShieldCheck size={18} /> Rental Management Secure</h4>
                                 <p className="text-xs text-blue-100 font-medium leading-relaxed">Your data and payments are secured with end-to-end encryption. We never share your details without consent.</p>
                             </CardContent>
                         </Card>
